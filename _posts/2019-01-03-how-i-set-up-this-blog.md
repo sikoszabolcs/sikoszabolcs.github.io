@@ -1,16 +1,16 @@
 ---
 layout: post
-title:  "How I set up this blog with google domains, github pages and Jekyll"
-
+title:  "How I set up this blog"
 ---
+With google domains, github pages and Jekyll.
 
 1. Get a google domain name (already had one, so won't go into the details)
 
    - Set up an A record
 
-   - Set up a CNAME record from <user>.github.io to <your-custom-domain-name> 
+   - Set up a CNAME record from *your-github-user.github.io* to *your-custom-domain-name*
 
-   - Optionally set up another CNAME record from from www to <your-custom-domain-name>
+   - Optionally set up another CNAME record from from *www* to *your-custom-domain-name*
 
 2. Set up Github Pages
 
@@ -19,7 +19,7 @@ title:  "How I set up this blog with google domains, github pages and Jekyll"
 
 3. Post articles
 
-   - Create a new file in the _posts folder with the naming convention <yyyy-mm-dd-title>.md
+   - Create a new file in the _posts folder with the naming convention *yyyy-mm-dd-title.md*
    - Add, commit & push to GitHub
 
 ##### References:
